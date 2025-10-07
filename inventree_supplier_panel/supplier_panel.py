@@ -2,7 +2,7 @@ from django.http import HttpResponse
 from django.http import JsonResponse
 from django.urls import re_path
 
-from order.views import PurchaseOrderDetail
+from order.api import PurchaseOrderDetail
 from order.models import PurchaseOrder
 from part.views import PartDetail
 from part.models import Part
