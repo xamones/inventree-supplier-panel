@@ -4,7 +4,7 @@ from django.urls import re_path
 
 from order.api import PurchaseOrderDetail
 from order.models import PurchaseOrder
-from part.views import PartDetail
+from part.api import PartDetail
 from part.models import Part
 from plugin import InvenTreePlugin
 from plugin.mixins import PanelMixin, SettingsMixin, UrlsMixin
